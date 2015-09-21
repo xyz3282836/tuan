@@ -1,0 +1,40 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="BaseTheme">
+        <!-- Customize your theme here. -->
+    </style>
+
+
+    <style name="BaseTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowTranslucentStatus">true</item>
+
+        <!--   your app's branding color (for the app bar) -->
+        <item name="android:colorPrimary">@color/lightblue600</item>
+        <!--   darker variant of colorPrimary (for status bar, contextual app bars) -->
+        <item name="android:colorPrimaryDark">@color/lightblue700</item>
+        <!--   theme UI controls like checkboxes and text fields -->
+        <!--<item name="android:colorAccent">@color/accent</item>-->
+
+    </style>
+    <style name="NoBarTheme" parent="Theme.AppCompat.Light.NoActionBar">
+
+        <!-- toolbar（actionbar）颜色 -->
+        <!--<item name="colorPrimary">@color/lightblue600</item>-->
+        <item name="colorPrimary">@color/blue400</item>
+
+        <!-- 状态栏颜色 -->
+        <item name="colorPrimaryDark">@color/lightblue700</item>
+
+        <item name="colorAccent">@color/pink400</item>
+
+        <!-- 窗口的背景颜色 -->
+        <!--<item name="android:windowBackground">@android:color/white</item>-->
+
+        <!--<item name="android:windowDrawsSystemBarBackgrounds">true</item>-->
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+</resources>
