@@ -28,15 +28,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name="com.tuan.app.activity.MainActivity"
-            android:label="@string/title_activity_main" >
-        </activity>
-        <activity
-            android:name="com.tuan.app.activity.Main2Activity"
-            android:label="@string/title_activity_main2" >
-
-        </activity>
     </application>
 
 </manifest>
